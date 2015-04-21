@@ -3,12 +3,13 @@
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  color:#FFFFFF;
   font-weight:300;
+  background-color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#FFFFFF;
   margin:0 0 20px;
 }
 
@@ -182,6 +183,39 @@ footer {
   position:fixed;
   bottom:50px;
 }
+
+/*  background stripes */
+.bg {
+  position: absolute;
+}
+
+.stripe {
+  height: 100vh;
+  top: 0;
+}
+
+.stripe-primary {
+  left: 60px;
+  width: 25px;
+  z-index: 43;
+}
+
+.stripe-secondary {
+  left: 85px;
+  width: 25px;
+  z-index: 42;
+}
+
+.stripe-tertiary {
+  left: 1px;
+  width: 60px;
+  z-index: 41;
+}
+
+.stripe-primary           { background: #1672b5; }
+.stripe-secondary         { background: #ffffff; }
+.stripe-tertiary          { background: #000000; border-right: 1px solid #ffffff}
+ 
 
 @media print, screen and (max-width: 960px) {
   
