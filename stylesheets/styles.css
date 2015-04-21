@@ -197,25 +197,15 @@ footer {
 .stripe-primary {
   left: 60px;
   width: 25px;
-  z-index: 43;
 }
 
 .stripe-secondary {
   left: 85px;
   width: 25px;
-  z-index: 42;
-}
-
-.stripe-tertiary {
-  left: 1px;
-  width: 60px;
-  z-index: 41;
 }
 
 .stripe-primary           { background: #1672b5; }
 .stripe-secondary         { background: #ffffff; }
-.stripe-tertiary          { background: #000000; border-right: 1px solid #ffffff}
- 
 
 @media print, screen and (max-width: 960px) {
   
