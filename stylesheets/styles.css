@@ -102,6 +102,14 @@ header {
   position:fixed;
 }
 
+
+strong {
+  color:#222;
+  font-weight:700;
+}
+
+/* header list styling */
+/*
 header ul {
   list-style:none;
   height:40px;
@@ -139,11 +147,6 @@ header ul a {
   height:40px;
 }
 
-strong {
-  color:#222;
-  font-weight:700;
-}
-
 header ul li + li {
   width:88px;
   border-left:1px solid #fff;
@@ -159,6 +162,7 @@ header ul a strong {
   display:block;
   color:#222;
 }
+*/
 
 section {
   width:500px;
@@ -182,6 +186,13 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
+}
+
+/* repositories */
+#repositories {
+  width:270px;
+  float:left;
+  position:fixed;
 }
 
 /*  background stripes */
